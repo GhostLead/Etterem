@@ -1,0 +1,39 @@
+body, nav{
+    background-color: gray;
+    font-size: 16pt;
+}
+
+
+a {
+    text-align: center;
+}
+
+.forgat {
+    transform: rotate(-90deg);
+}
+
+th {
+    height: 2cm;
+}
+
+div>p>div>p {
+    width: 4cm;
+    border: 1px solid black;
+    font-size: larger;
+}
+
+div {
+    border: 2px solid black;
+    margin: auto;
+}
+
+img {
+    width: 10cm;
+    height: 6.66cm;
+    border-radius: 10px;
+}
+
+.görgetés-oldalra{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
