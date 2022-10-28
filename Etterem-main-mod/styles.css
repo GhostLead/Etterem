@@ -1,0 +1,405 @@
+body {
+    background-color: #494a4b;
+}
+
+a {
+    text-align: center;
+}
+
+
+.sidebar {
+    background-image: linear-gradient(to top, rgb(255, 255, 255), #343a40);
+    height: 100%;
+    width: 9rem;
+    left: 0px;
+    overflow: hidden;
+}
+
+#nav_bar{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    
+}
+
+.sor_1,
+.sor_2,
+.sor_3 {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 8rem;
+    width: 90%;
+    height: fit-content;
+
+}
+
+.oszlop {
+    flex: 33.33%;
+    padding: 60px 30px 60px 30px;
+
+
+}
+
+.oszlop img {
+    width: 80%;
+    height: 80%;
+}
+/*
+.oszlop img:hover {
+    transform: scale(0.8);
+    box-shadow: 1px solid #242729;
+    box-shadow: 0 5px 100px rgb(86, 168, 236);
+}
+*/
+.sidebar p {
+    margin-top: 8rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.oszlop p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:5rem;
+    font-size: 1.5rem;
+}
+
+div.oszlop img {
+    width: 290px;
+    height: 110%;
+}
+
+.forgat{
+    margin: 30px;
+    transform:rotate(-90deg);
+}
+
+img[src*="logo"]{
+    height: 7vh;
+}
+
+footer{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #343a40;
+    height: 48px;
+}
+
+footer a{
+    color: white;
+}
+th{
+    background-color:#343a40;
+    color:white;
+    width: 11%;
+    height: 200px;
+}
+td{ 
+    width:11%;
+    background-color:#343a40e7;
+    color:white;
+}
+table{
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+    border: 20px solid white;
+}
+
+#mainLogo {
+    text-align: center;
+}
+
+#mainLogo img {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    width: 25%;
+    height: 25%;
+
+}
+
+
+#cim {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#etteremNev {
+    color: wheat;
+    font-family: Arial;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+/*
+.grow {
+    transition: all .5s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.5);
+    box-shadow: 0 5px 100px rgba(86, 169, 236, 0.788);
+}
+*/
+
+#navigation {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#navigation li {
+    display: inline-block;
+    margin: 50px;
+}
+
+.button-shrink {
+    border: 1px solid #242729;
+    border-radius: 60px;
+    padding: 50px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 130%;
+    text-decoration: none;
+    background-image: url("kaja.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 0 4px 4px black;
+}
+  
+.button-shrink:hover {
+    transform: scale(0.8);
+    box-shadow: 1px solid #242729;
+    box-shadow: 0 5px 100px rgb(86, 168, 236);
+}
+
+#itallap_nav {
+    background-image: url("ital.jpg");
+    color: white;
+}
+
+#elerhetoseg_nav {
+    background-image: url("eler.jpg");
+    color: white;
+}
+
+#etlap_nav {
+    background-image: url("kaja.jpg");
+    color: white;
+}
+
+.link-button-shrink {
+    border: 1px solid #242729;
+    border-radius: 60px;
+    padding: 60px 200px;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 130%;
+    text-decoration: none;
+    background-image: url("kaja.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 0 4px 4px black;
+}
+
+.link-button-shrink:hover {
+    transform: scale(0.8);
+    box-shadow: 1px solid #242729;
+
+}
+
+#facebook_nav {
+    background-image: url("facebook.jpg");
+}
+
+
+#twitter_nav {
+    background-image: url("twitter.jpg");
+}
+
+#instagram_nav {
+    background-image: url("instagram.jpg");
+}
+
+#tel_szam {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200%;
+    
+}
+
+.container {
+    text-align: center;
+
+}
+
+
+h1 {
+    color: white;
+}
+
+#nyitvatartas {
+    font-size: 90%;
+    width: 90%;
+    height: 90%;
+}
+
+#nyitvatartas_div {
+    margin-left: 75px;
+}
+
+#nyitva_cim {
+    background-color: #2b3035e7;
+}
+
+#invisible {
+    margin: auto;
+    margin-top: 50px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: none;
+}
+
+#invisible tr #inv_cella{
+    background-color: #494a4b00;
+    width: 1000px;
+}
+
+#jobb_navbar {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#jobb_navbar li {
+    display: inline-block;
+}
+  
+#jobb_navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#jobb_navbar li a:hover:not(.active) {
+    background-color: rgb(17, 84, 209);
+    border-radius: 13px;
+    
+}
+  
+
+
+.active {
+    background-color: #0c92cf;
+    border-radius: 13px;
+    font-weight: bold;
+}
+
+
+#udvozles {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 150%;
+    font-family: 'Brush Script ';
+    font-style: italic;
+}
+
+#udvozles > span {
+    color: rgb(255, 217, 0);
+}
+
+#ajanlat {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+#ajanlat ul li {
+    display: inline-block;
+   
+}
+
+.ajanlat_img {
+    width: 300px;
+    height: 280;
+    border-radius: 13px;
+}
+
+
+#kozepso_img {
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 300px;
+    height: 260;
+    border-radius: 13px;
+    
+}
+
+
+#sef_ajanlata {
+    color:white;
+    font-size: 200%;
+    font-family: 'Brush Script ';
+}
+
+#elerhetoseg_background {
+    background-image: url("eifel/2.jpg");
+    background-size: cover;
+}
+
+
+#egesz_oldal {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+	--angle: 0deg;
+	border: 2vmin solid;
+	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    background-image: url("eifel/4.jpg");
+    background-size: cover;
+    text-shadow: 5px 5px 5px rgb(26, 26, 26);
+	
+	animation: 10s rotate linear infinite;
+}
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+#hely {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
