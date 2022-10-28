@@ -1,0 +1,166 @@
+body{
+    background-color: #333;
+
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 9rem;
+    position: fixed;
+}
+
+.sor_1,
+.sor_2,
+.sor_3 {
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 8rem;
+    width: 90%;
+    height: fit-content;
+
+}
+
+.oszlop {
+    flex: 33.33%;
+    padding: 60px 30px 60px 30px;
+
+
+}
+
+.sidebar p {
+    margin-top: 8rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    font-size: 3rem;
+    margin-left: 0.5rem;
+}
+
+.oszlop p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:1rem;
+    font-size: 1.5rem;
+}
+
+div.oszlop img {
+    width: 290px;
+    height: 110%;
+}
+
+.forgat{
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    /*
+    text-shadow: -2px 2px 1px #ffffffcc;
+*/
+    margin: 30px;
+    transform:rotate(-90deg);
+}
+
+img[src*="logo"]{
+    height: 7vh;
+}
+
+footer{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #343a40;
+    height: 48px;
+}
+
+footer a{
+    color: white;
+}
+th{
+    background-color:#343a40;
+    color:white;
+    width: 11%;
+    height: 200px;
+}
+td{ 
+    width:11%;
+    background-color:#343a40e7;
+    color:white;
+}
+table{
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+    border: 20px solid white;
+}
+
+.oszlop p {
+    color: rgb(26, 22, 214);
+    border: white;
+}
+
+.oszlop .ar {
+    color: #22e707;
+}
+
+.kosar_button {
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    background:#632b2b; /*#252c54*/
+}
+
+button:hover {
+    box-shadow: white;
+}
+
+#nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 120%;
+    
+    
+  }
+  
+  #nav_menu li {
+    text-align: center;
+    float:left
+    
+  }
+  
+  #nav_menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  #nav_menu li a:hover:not(.active) {
+    background-color: #632b2b;
+    
+  }
+  
+  #nav_menu .active {
+    background-color: rgb(26, 22, 214);
+    font-weight: bold;
+  }
+
+  #logo_nav img {
+    float: right;
+    text-align: center;
+    margin-left: 1360px;
+    width: 120px;
+    height: 55px;
+  }
+
+#button:hover {
+    transform:scale(1.3,1.3);
+    -webkit-transform:scale(1.3,1.3);
+    -moz-transform:scale(1.3,1.3);
+}
