@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Itallap</title>
+    <link rel="icon" type="image/x-icon" href="kepek/logo/logo.ico">
+    <link>
+    <script src="kosar.js"></script>
+</head>
+
+<body>
+
+    <div id="jobb_navbar">
+        <ul>
+            <li><a href="Főoldal.html">Főoldal</a></li>
+            <li><a href="etlap.html">Étlap</a></li>
+            <li><a href="Itallap.html" class="active">Itallap</a></li>
+            <li><a href="elerhetoseg.html">Kapcsolatok</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar">
+        <p class="forgat" id="uditok">Üdítők</p>
+        <p class="forgat" id="sorok">Sörök, borok</p>
+    </div>
+    <div class="sor_1">
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/Pepsi-PNG-Image.png" class="image">
+            <div class="middle">
+                <span class="text">Pepsi</span>
+                <span class="text">(0,33l)</span>
+                <div class="text"><button class="kosar_button" onclick="pepsi_kosarba()"></button></div>
+                <span id="ar_pepsi">650FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/water.png" class="image">
+            <div class="middle">
+                <span class="text">Ásványvíz</span>
+                <span class="text">(0,3l)</span>
+                <div class="text"><button class="kosar_button" onclick="viz_kosarba()"></button></div>
+                <span id="ar_viz">750FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/limonade.png" class="image">
+            <div class="middle">
+                <span class="text">Citromos</span>
+                <span class="text">limonádé</span>
+                <span class="text">(0,5l)</span>
+                <div><button class="kosar_button" onclick="limi_kosarba()"></button></div>
+                <span id="ar_limi">1600FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/toma.png" class="image">
+            <div class="middle">
+                <span class="text">Toma</span>
+                <span class="text">gyümölcslevek </span>
+                <span class="text">(0,33l)</span>
+                <div><button class="kosar_button" onclick="toma_kosarba()"></button></div>
+                <span id="ar_toma">650FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/soda.png" class="image">
+            <div class="middle">
+                <span class="text">Szóda</span>
+                <span class="text">(0,5l)</span>
+                <div><button class="kosar_button" onclick="szoda_kosarba()"></button></div>
+                <span id="ar_szoda">900FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/uditok/kubu.png" class="image">
+            <div class="middle">
+                <span class="text">Kubu</span>
+                <span class="text">(0,33l)</span>
+                <div><button class="kosar_button" onclick="kubu_kosarba()"></button></div>
+                <span id="ar_kubu">670FT</span>
+            </div>
+        </div>
+    </div>
+    <div class="sor_2">
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/kobanyai.png" class="image">
+            <div class="middle">
+                <span class="text">Kőbányai</span>
+                <span class="text">(0,5l)</span>
+                <div><button class="kosar_button" onclick="kobanyai_kosarba()"></button></div>
+                <span id="ar_kobanyai">800FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/soproni.png" class="image">
+            <div class="middle">
+                <span class="text">Soproni</span>
+                <span class="text">(0,5l)</span>
+                <div><button class="kosar_button" onclick="soproni_kosarba()"></button></div>
+                <span id="ar_soproni">800FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/csapolt.png" class="image">
+            <div class="middle">
+                <span class="text">Csapolt</span>
+                <span class="text">sör</span>
+                <span class="text">(0,4l)</span>
+                <div><button class="kosar_button" onclick="csapolt_kosarba()"></button></div>
+                <span id="ar_csapoltsor">1600FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/medina.png" class="image">
+            <div class="middle">
+                <span class="text">Egri</span>
+                <span class="text">medina</span>
+                <span class="text">(édes)</span>
+                <div><button class="kosar_button" onclick="egri_edes_kosarba()"></button></div>
+                <span id="ar_egri_edes">1400FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/portugal.png" class="image">
+            <div class="middle">
+                <span class="text">Egri</span>
+                <span class="text">Portugieser</span>
+                <span class="text">(száraz)</span>
+                <div><button class="kosar_button" onclick="egri_szaraz_kosarba()"></button></div>
+                <span id="ar_egri_szaraz">1400FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/ital/sorok borok/kekfrank.png" class="image">
+            <div class="middle">
+                <span class="text">Egri</span>
+                <span class="text">Kékfrankos</span>
+                <span class="text">(félédes)</span>
+                <div><button class="kosar_button" onclick="egri_feledes_kosarba()"></button></div>
+                <span id="ar_egri_feledes">1400FT</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="fizetendo">
+        A fizetendő összeg a választott italok alapján: <span id="szam">0</span> Ft.
+    </div>
+
+    <div id="null">
+        <button id="nullazo" class="button_shrink" onclick="nullaz_itallap()">Nullázás</button>
+    </div>
+
+
+</body>
+
+</html>

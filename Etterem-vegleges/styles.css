@@ -1,0 +1,509 @@
+body {
+    background-color: wheat;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+}
+
+#kulso_div {
+    background-color: wheat;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+#egesz_oldal {
+    background-color: #4b4c4d;
+    border-radius: 20px;
+}
+
+#egesz_oldal_kosar {
+    color: white;
+    background-color: #4b4c4d;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-size: 140%;
+}
+
+a {
+    text-align: center;
+}
+
+.forgat{
+    margin: 30px;
+    transform:rotate(-90deg);
+}
+
+img[src*="logo"]{
+    height: 7vh;
+}
+
+th{
+    background-color:#343a40;
+    color:white;
+    width: 11%;
+    height: 200px;
+}
+td{ 
+    width:11%;
+    background-color:#343a40e7;
+    color:white;
+}
+table{
+    width: 100%;
+    font-size: 250%;
+    text-align: center;
+    border: 20px solid white;
+}
+
+#mainLogo {
+    text-align: center;
+}
+
+#mainLogo img {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    width: 25%;
+    height: 25%;
+
+}
+
+
+#cim {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#etteremNev {
+    color: wheat;
+    font-family: Arial;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#navigation {
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+#navigation li {
+    display: inline-block;
+    margin: 50px;
+}
+
+.button-shrink {
+    border: 1px solid #242729;
+    border-radius: 60px;
+    padding: 50px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 130%;
+    text-decoration: none;
+    background-image: url("kaja.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 0 4px 4px black;
+}
+  
+.button-shrink:hover {
+    transform: scale(0.8);
+    box-shadow: 1px solid #242729;
+}
+
+#itallap_nav {
+    background-image: url("kepek/gombok/ital.jpg");
+    color: white;
+}
+
+#elerhetoseg_nav {
+    background-image: url("kepek/gombok/eler.jpg");
+    color: white;
+}
+
+#etlap_nav {
+    background-image: url("kepek/gombok/kaja.jpg");
+    color: white;
+}
+
+.link-button-shrink {
+    border: 1px solid #242729;
+    border-radius: 60px;
+    padding: 60px 200px;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 130%;
+    text-decoration: none;
+    background-image: url("kaja.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 0 4px 4px black;
+}
+
+.link-button-shrink:hover {
+    transform: scale(0.8);
+    box-shadow: 1px solid #242729;
+
+}
+
+#facebook_nav {
+    background-image: url("kepek/gombok/facebook.jpg");
+}
+
+#twitter_nav {
+    background-image: url("kepek/gombok/twitter.jpg");
+}
+
+#instagram_nav {
+    background-image: url("kepek/gombok/instagram.jpg");
+}
+
+#tel_szam {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200%;
+    
+}
+
+.container {
+    text-align: center;
+
+}
+
+
+h1 {
+    color: white;
+}
+
+#nyitvatartas {
+    font-size: 90%;
+    width: 90%;
+    height: 90%;
+}
+
+#nyitvatartas_div {
+    margin-left: 75px;
+}
+
+#nyitva_cim {
+    background-color: #2b3035e7;
+}
+
+#invisible {
+    margin: auto;
+    margin-top: 50px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: none;
+}
+
+#invisible tr #inv_cella{
+    background-color: #494a4b00;
+    width: 1000px;
+}
+
+#jobb_navbar {
+    text-shadow: 2px 2px black;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: -16px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#jobb_navbar li {
+    display: inline-block;
+}
+  
+#jobb_navbar li a {
+    display: block;
+    color: white;
+    font-size: 105%;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#jobb_navbar li a:hover:not(.active) {
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    background-color: #ffffff;
+    border-radius: 13px;
+    
+}
+
+.active {
+    background-color:  rgb(17, 84, 209);
+    border-radius: 13px;
+    font-weight: bold;
+}
+
+
+#udvozles {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 150%;
+    font-family: 'Brush Script ';
+    font-style: italic;
+}
+
+#udvozles > span {
+    color: rgb(255, 217, 0);
+}
+
+#ajanlat {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#ajanlat ul li {
+    display: inline-block;
+   
+}
+
+.ajanlat_img {
+    width: 300px;
+    height: 200px;
+    border-radius: 13px;
+}
+
+
+#kozepso_img {
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 300px;
+    height: 260;
+    border-radius: 13px;
+    
+}
+
+#sef_ajanlata {
+    color:white;
+    font-size: 200%;
+    font-family: 'Brush Script ';
+}
+
+#elerhetoseg_background {
+    background-image: url("eifel/2.jpg");
+    background-size: cover;
+}
+
+#hely {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: #3c3e41;
+    height: 48px;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#ajanlat_button ul li:first-child {
+    margin-left: 475px;
+}
+
+#ajanlat_button ul li{
+    display: inline-block;
+    margin-right: 265px;
+    margin-bottom: 200px;
+}
+
+.kosar_button {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-image: url("kepek/gombok/shopping_cart.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.18s ease-in-out;
+}
+
+.kosar_button:hover {
+    transform: scale(0.9);
+}
+
+#kosar_button ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 800px;
+    margin-bottom: 100px;
+}
+
+#kosar_button ul li #shopping_cart {
+    border: none;
+    background-color: #24272900;
+    background-image: url("kepek/231-2317482_white-shopping-cart-png-download-buy-icon-white.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.18s ease-in-out;
+}
+
+#shopping_cart {
+    width: 140px;
+    height: 120px;
+    padding: 10px;
+
+}
+
+#shopping_cart:hover {
+    transform: scale(0.9);
+}
+
+#kosar_tartalom {
+    text-align: center;
+    margin-top: 65px;
+
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.oszlop {
+    position: relative;
+}
+
+.oszlop:hover .image {
+    opacity: 0.3;
+  }
+  
+  .oszlop:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    background-color: none;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+
+
+  #ar_lepeny {
+    font-size: 150%;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+#ar_jogh {
+    font-size: 150%;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+#ar_pori {
+    font-size: 150%;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+#refresh {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+}
+
+#refresh:hover {
+    background-color: cornflowerblue;
+}
+
+#null{
+    text-align: center;
+}
+
+  #nullazo {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    transition: all 0.18s ease-in-out;
+  }
+
+  #nullazo:hover {
+    color: white;
+    text-shadow: 2px 2px black;
+    background-color: cornflowerblue;
+    transform: scale(0.9);
+  }
+
+  #fizetendo {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-size: 210%;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+#szam {
+    color:#00ff00;
+    margin-left: 75px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Étellap</title>
+    <link rel="icon" type="image/x-icon" href="kepek/logo/logo.ico">
+    <link>
+    <script src="kosar.js"></script>
+</head>
+
+<body>
+
+    <div id="jobb_navbar">
+        <ul>
+            <li><a href="Főoldal.html">Főoldal</a></li>
+            <li><a href="etlap.html" class="active">Étlap</a></li>
+            <li><a href="Itallap.html">Itallap</a></li>
+            <li><a href="elerhetoseg.html">Kapcsolatok</a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="sidebar">
+        <p class="forgat" id="leves">Leves</p>
+        <p class="forgat" id="foetel">Főétel</p>
+        <p class="forgat" id="desszert">Desszert</p>
+    </div>
+    <div class="sor_1">
+        <div class="oszlop">
+            <img src="kepek/étel/leves/leves_burgonyakremleves-szalonnaval.jpg" class="image">
+            <div class="middle">
+                <span class="text">Burkonyakrémleves</span>
+                <span class="text">szalonnával</span>
+                <div><button class="kosar_button" onclick="buri_kosarba()"></button></div>
+                <span id="ar_buri">830Ft</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/leves/leves_frankfurtileves.jpg" class="image">
+            <div class="middle">
+                <span class="text">Frankfurtileves</span>
+                <div><button class="kosar_button" onclick="frank_kosarba()"></button></div>
+                <span id="ar_frank">760FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/leves/leves_gulyasleves.jpg" class="image">
+            <div class="middle">
+                <span class="text">Gulyásleves</span>
+                <div><button class="kosar_button" onclick="gulyas_kosarba()"></button></div>
+                <span id="ar_gulyas">1200FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/leves/leves_gyumolcs.jpg" class="image">
+            <div class="middle">
+                <span class="text">Vegyes</span>
+                <span class="text">gyümölcsleves</span>
+                <div><button class="kosar_button" onclick="gyumi_kosarba()"></button></div>
+                <span id="ar_gyumi">800FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/leves/leves_joghurtos-narancsos-repaleves.jpg" class="image">
+            <div class="middle">
+                <span class="text">Joghurtos</span>
+                <span class="text">narancsos</span>
+                <span class="text">répaleves</span>
+                <div><button class="kosar_button" onclick="jogh_kosarba()"></button></div>
+                <span id="ar_jogh">990FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/leves/Brokkoli-krémleves.jpg" class="image">
+            <div class="middle">
+                <span class="text">Brokkoli</span>
+                <span class="text">krémleves</span>
+                <div><button class="kosar_button" onclick="brokkoli_k_kosarba()"></button></div>
+                <span id="ar_brokkoli_k">1350FT</span>
+            </div>
+        </div>
+    </div>
+    <div class="sor_2">
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/foetel_brassoiapropecsenye.jpg" class="image">
+            <div class="middle">
+                <span class="text">Brassói</span>
+                <span class="text">aprópecsenye</span>
+                <div><button class="kosar_button" onclick="brassoi_kosarba()"></button></div>
+                <span id="ar_brassoi">2100FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/foetel_paprikáskrumpli.jpg" class="image">
+            <div class="middle">
+                <span class="text">Paprikáskrumpli</span>
+                <div><button class="kosar_button" onclick="paprikas_kosarba()"></button></div>
+                <span id="ar_paprikas">1850FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/foetel_pizza.jpg" class="image">
+            <div class="middle">
+                <span class="text">Hawai</span>
+                <span class="text">pizza</span>
+                <div><button class="kosar_button" onclick="pizza_kosarba()"></button></div>
+                <span id="ar_pizza">1750FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/foetel_pörkölt.jpg" class="image">
+            <div class="middle">
+                <span class="text">Sertéspörkölt</span>
+                <span class="text">galuskával</span>
+                <div><button class="kosar_button" onclick="pori_kosarba()"></button></div>
+                <span id="ar_pori">2950FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/foetel_slambuc.jpg" class="image">
+            <div class="middle">
+                <span class="text">Slambuc</span>
+                <div><button class="kosar_button" onclick="slambuc_kosarba()"></button></div>
+                <span id="ar_slambuc">2450FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/foetel/toltott kaposzta.jpg" class="image">
+            <div class="middle">
+                <span class="text">Töltött</span>
+                <span class="text">káposzta</span>
+                <div><button class="kosar_button" onclick="toltott_k_kosarba()"></button></div>
+                <span id="ar_toltott_k">1670FT</span>
+            </div>
+        </div>
+    </div>
+    <div class="sor_3">
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/desszert_bananhabos_pite.jpg" class="image">
+            <div class="middle">
+                <span class="text">Banános</span>
+                <span class="text">pite</span>
+                <div><button class="kosar_button" onclick="pite_kosarba()"></button></div>
+                <span id="ar_pite">630FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/desszert_csokitorta.jpg" class="image">
+            <div class="middle">
+                <span class="text">Csokitorta</span>
+                <div><button class="kosar_button" onclick="csoki_kosarba()"></button></div>
+                <span id="ar_csoki">680FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/desszert_narancsos_poharkrem.jpg" class="image">
+            <div class="middle">
+                <span class="text">Narancsos</span>
+                <span class="text">pohárkrém</span>
+                <div><button class="kosar_button" onclick="poharkrem_kosarba()"></button></div>
+                <span id="ar_poharkrem">870FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/desszert_turos-lepeny-malnaontettel.jpg" class="image">
+            <div class="middle">
+                <span class="text">Túrós</span>
+                <span class="text">lepény</span>
+                <span class="text">málnaöntettel</span>
+                <div><button class="kosar_button" onclick="lepeny_kosarba()"></button></div>
+                <span id="ar_lepeny">940FT</span>
+            </div>
+        </div>
+
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/desszert_vanilias_bananpudingrolad.jpg" class="image">
+            <div class="middle">
+                <span class="text">Banános</span>
+                <span class="text">piskótatekercs</span>
+                <div><button class="kosar_button" onclick="tekercs_kosarba()"></button></div>
+                <span id="ar_tekercs">840FT</span>
+            </div>
+        </div>
+        <div class="oszlop">
+            <img src="kepek/étel/desszert/tiramisu.jpg" class="image">
+            <div class="middle">
+                <span class="text">Tiramisu</span>
+                <div><button class="kosar_button" onclick="tiramisu_kosarba()"></button></div>
+                <span id="ar_tiramisu">840FT</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="fizetendo">
+        A fizetendő összeg a választott ételek alapján: <span id="szam">0</span> Ft.
+    </div>
+
+    <div id="null">
+        <button id="nullazo" class="button_shrink" onclick="nullaz_etlap()">Nullázás</button>
+    </div>
+
+
+
+</body>
+
+</html>
